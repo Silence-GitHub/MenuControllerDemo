@@ -15,6 +15,8 @@ class NextResponderVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: Notification.Name.UIKeyboardWillShow, object: nil)
+        
         view.backgroundColor = .groupTableViewBackground
         
         let button = ShowMenuButton(frame: CGRect(x: 10, y: 64, width: 100, height: 50))
@@ -47,6 +49,11 @@ class NextResponderVC: UIViewController {
     
     func customItemDidSelect() {
         print(#function)
+    }
+    
+    @objc private func keyboardWillShow() {
+        // Prevent custom menu item displaying in text view
+        UIMenuController.shared.menuItems = nil
     }
     
     @objc private func menuControllerWillHide() {

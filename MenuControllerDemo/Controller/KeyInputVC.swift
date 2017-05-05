@@ -14,7 +14,7 @@ class KeyInputVC: UIViewController, KeyInputButtonDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         view.backgroundColor = .groupTableViewBackground
         
         let button = KeyInputButton(frame: CGRect(x: 10, y: 64, width: 100, height: 50))

@@ -11,13 +11,13 @@
 		4A3AF5C71EBC61DA00FEDD38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AF5C51EBC61DA00FEDD38 /* Main.storyboard */; };
 		4A3AF5C91EBC61DA00FEDD38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AF5C81EBC61DA00FEDD38 /* Assets.xcassets */; };
 		4A3AF5CC1EBC61DA00FEDD38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AF5CA1EBC61DA00FEDD38 /* LaunchScreen.storyboard */; };
-		4A3AF5D41EBC621500FEDD38 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5D31EBC621500FEDD38 /* TableViewController.swift */; };
-		4A3AF5D61EBC635C00FEDD38 /* NextResponderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5D51EBC635C00FEDD38 /* NextResponderVC.swift */; };
-		4A3AF5D81EBC636F00FEDD38 /* KeyInputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5D71EBC636F00FEDD38 /* KeyInputVC.swift */; };
-		4A3AF5DA1EBC637B00FEDD38 /* CustomMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5D91EBC637B00FEDD38 /* CustomMenuVC.swift */; };
-		4A3AF5DD1EBC659800FEDD38 /* CustomResponderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5DC1EBC659800FEDD38 /* CustomResponderTextView.swift */; };
-		4A3AF5DF1EBC672000FEDD38 /* ShowMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5DE1EBC672000FEDD38 /* ShowMenuButton.swift */; };
-		4A3AF5E41EBC937200FEDD38 /* KeyInputButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5E31EBC937200FEDD38 /* KeyInputButton.swift */; };
+		4A3AF5F21EBCA25200FEDD38 /* CustomMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5EA1EBCA25200FEDD38 /* CustomMenuVC.swift */; };
+		4A3AF5F31EBCA25200FEDD38 /* KeyInputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5EB1EBCA25200FEDD38 /* KeyInputVC.swift */; };
+		4A3AF5F41EBCA25200FEDD38 /* NextResponderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5EC1EBCA25200FEDD38 /* NextResponderVC.swift */; };
+		4A3AF5F51EBCA25200FEDD38 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5ED1EBCA25200FEDD38 /* TableViewController.swift */; };
+		4A3AF5F61EBCA25200FEDD38 /* CustomResponderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5EF1EBCA25200FEDD38 /* CustomResponderTextView.swift */; };
+		4A3AF5F71EBCA25200FEDD38 /* KeyInputButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5F01EBCA25200FEDD38 /* KeyInputButton.swift */; };
+		4A3AF5F81EBCA25200FEDD38 /* ShowMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5F11EBCA25200FEDD38 /* ShowMenuButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +27,13 @@
 		4A3AF5C81EBC61DA00FEDD38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A3AF5CB1EBC61DA00FEDD38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A3AF5CD1EBC61DA00FEDD38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A3AF5D31EBC621500FEDD38 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		4A3AF5D51EBC635C00FEDD38 /* NextResponderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextResponderVC.swift; sourceTree = "<group>"; };
-		4A3AF5D71EBC636F00FEDD38 /* KeyInputVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyInputVC.swift; sourceTree = "<group>"; };
-		4A3AF5D91EBC637B00FEDD38 /* CustomMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMenuVC.swift; sourceTree = "<group>"; };
-		4A3AF5DC1EBC659800FEDD38 /* CustomResponderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomResponderTextView.swift; sourceTree = "<group>"; };
-		4A3AF5DE1EBC672000FEDD38 /* ShowMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowMenuButton.swift; sourceTree = "<group>"; };
-		4A3AF5E31EBC937200FEDD38 /* KeyInputButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyInputButton.swift; sourceTree = "<group>"; };
+		4A3AF5EA1EBCA25200FEDD38 /* CustomMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMenuVC.swift; sourceTree = "<group>"; };
+		4A3AF5EB1EBCA25200FEDD38 /* KeyInputVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyInputVC.swift; sourceTree = "<group>"; };
+		4A3AF5EC1EBCA25200FEDD38 /* NextResponderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextResponderVC.swift; sourceTree = "<group>"; };
+		4A3AF5ED1EBCA25200FEDD38 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4A3AF5EF1EBCA25200FEDD38 /* CustomResponderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomResponderTextView.swift; sourceTree = "<group>"; };
+		4A3AF5F01EBCA25200FEDD38 /* KeyInputButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyInputButton.swift; sourceTree = "<group>"; };
+		4A3AF5F11EBCA25200FEDD38 /* ShowMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowMenuButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +66,8 @@
 		4A3AF5C01EBC61DA00FEDD38 /* MenuControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4A3AF5DB1EBC64AD00FEDD38 /* Controller */,
-				4A3AF5E01EBC73C700FEDD38 /* View */,
+				4A3AF5E91EBCA25200FEDD38 /* Controller */,
+				4A3AF5EE1EBCA25200FEDD38 /* View */,
 				4A3AF5C11EBC61DA00FEDD38 /* AppDelegate.swift */,
 				4A3AF5C51EBC61DA00FEDD38 /* Main.storyboard */,
 				4A3AF5C81EBC61DA00FEDD38 /* Assets.xcassets */,
@@ -77,25 +77,25 @@
 			path = MenuControllerDemo;
 			sourceTree = "<group>";
 		};
-		4A3AF5DB1EBC64AD00FEDD38 /* Controller */ = {
+		4A3AF5E91EBCA25200FEDD38 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4A3AF5D31EBC621500FEDD38 /* TableViewController.swift */,
-				4A3AF5D51EBC635C00FEDD38 /* NextResponderVC.swift */,
-				4A3AF5D71EBC636F00FEDD38 /* KeyInputVC.swift */,
-				4A3AF5D91EBC637B00FEDD38 /* CustomMenuVC.swift */,
+				4A3AF5ED1EBCA25200FEDD38 /* TableViewController.swift */,
+				4A3AF5EC1EBCA25200FEDD38 /* NextResponderVC.swift */,
+				4A3AF5EB1EBCA25200FEDD38 /* KeyInputVC.swift */,
+				4A3AF5EA1EBCA25200FEDD38 /* CustomMenuVC.swift */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		4A3AF5E01EBC73C700FEDD38 /* View */ = {
+		4A3AF5EE1EBCA25200FEDD38 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4A3AF5DE1EBC672000FEDD38 /* ShowMenuButton.swift */,
-				4A3AF5DC1EBC659800FEDD38 /* CustomResponderTextView.swift */,
-				4A3AF5E31EBC937200FEDD38 /* KeyInputButton.swift */,
+				4A3AF5EF1EBCA25200FEDD38 /* CustomResponderTextView.swift */,
+				4A3AF5F01EBCA25200FEDD38 /* KeyInputButton.swift */,
+				4A3AF5F11EBCA25200FEDD38 /* ShowMenuButton.swift */,
 			);
-			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,14 +171,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A3AF5DF1EBC672000FEDD38 /* ShowMenuButton.swift in Sources */,
+				4A3AF5F21EBCA25200FEDD38 /* CustomMenuVC.swift in Sources */,
+				4A3AF5F81EBCA25200FEDD38 /* ShowMenuButton.swift in Sources */,
 				4A3AF5C21EBC61DA00FEDD38 /* AppDelegate.swift in Sources */,
-				4A3AF5D81EBC636F00FEDD38 /* KeyInputVC.swift in Sources */,
-				4A3AF5D41EBC621500FEDD38 /* TableViewController.swift in Sources */,
-				4A3AF5E41EBC937200FEDD38 /* KeyInputButton.swift in Sources */,
-				4A3AF5DA1EBC637B00FEDD38 /* CustomMenuVC.swift in Sources */,
-				4A3AF5D61EBC635C00FEDD38 /* NextResponderVC.swift in Sources */,
-				4A3AF5DD1EBC659800FEDD38 /* CustomResponderTextView.swift in Sources */,
+				4A3AF5F41EBCA25200FEDD38 /* NextResponderVC.swift in Sources */,
+				4A3AF5F51EBCA25200FEDD38 /* TableViewController.swift in Sources */,
+				4A3AF5F31EBCA25200FEDD38 /* KeyInputVC.swift in Sources */,
+				4A3AF5F71EBCA25200FEDD38 /* KeyInputButton.swift in Sources */,
+				4A3AF5F61EBCA25200FEDD38 /* CustomResponderTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +344,7 @@
 				4A3AF5D21EBC61DA00FEDD38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

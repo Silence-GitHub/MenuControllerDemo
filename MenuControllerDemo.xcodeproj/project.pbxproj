@@ -91,9 +91,9 @@
 		4A3AF5EE1EBCA25200FEDD38 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4A3AF5F11EBCA25200FEDD38 /* ShowMenuButton.swift */,
 				4A3AF5EF1EBCA25200FEDD38 /* CustomResponderTextView.swift */,
 				4A3AF5F01EBCA25200FEDD38 /* KeyInputButton.swift */,
-				4A3AF5F11EBCA25200FEDD38 /* ShowMenuButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";

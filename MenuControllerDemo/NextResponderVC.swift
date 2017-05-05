@@ -32,19 +32,26 @@ class NextResponderVC: UIViewController {
     @objc private func showMenuButtonClicked(_ button: UIButton) {
         if textView.isFirstResponder {
             textView.overrideNext = button
-            // Observe will hide
-            // Do not use "did hide"
+            // Observe "will hide" to do some cleanup
+            // Do not use "did hide" which is not fast enough
             NotificationCenter.default.addObserver(self, selector: #selector(menuControllerWillHide), name: Notification.Name.UIMenuControllerWillHideMenu, object: nil)
         } else {
             button.becomeFirstResponder()
         }
         let menu = UIMenuController.shared
+        let customItem = UIMenuItem(title: "Custom item", action: #selector(customItemDidSelect))
+        menu.menuItems = [customItem]
         menu.setTargetRect(button.frame, in: view)
         menu.setMenuVisible(true, animated: true)
     }
     
+    func customItemDidSelect() {
+        print(#function)
+    }
+    
     @objc private func menuControllerWillHide() {
         textView.overrideNext = nil
+        UIMenuController.shared.menuItems = nil // Prevent custom menu items displaying in text view
         NotificationCenter.default.removeObserver(self, name: Notification.Name.UIMenuControllerWillHideMenu, object: nil)
     }
 

@@ -10,8 +10,11 @@ import UIKit
 
 class ShowMenuButton: UIButton {
 
+    // Return true so that menu controller can display
     override var canBecomeFirstResponder: Bool { return true }
     
+    // Return true to show menu for given action
+    // Action is in UIResponderStandardEditActions
     override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
         return action == #selector(copy(_:))
     }

@@ -17,6 +17,7 @@
 		4A3AF5DA1EBC637B00FEDD38 /* CustomMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5D91EBC637B00FEDD38 /* CustomMenuVC.swift */; };
 		4A3AF5DD1EBC659800FEDD38 /* CustomResponderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5DC1EBC659800FEDD38 /* CustomResponderTextView.swift */; };
 		4A3AF5DF1EBC672000FEDD38 /* ShowMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5DE1EBC672000FEDD38 /* ShowMenuButton.swift */; };
+		4A3AF5E41EBC937200FEDD38 /* KeyInputButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5E31EBC937200FEDD38 /* KeyInputButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4A3AF5D91EBC637B00FEDD38 /* CustomMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMenuVC.swift; sourceTree = "<group>"; };
 		4A3AF5DC1EBC659800FEDD38 /* CustomResponderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomResponderTextView.swift; sourceTree = "<group>"; };
 		4A3AF5DE1EBC672000FEDD38 /* ShowMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowMenuButton.swift; sourceTree = "<group>"; };
+		4A3AF5E31EBC937200FEDD38 /* KeyInputButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyInputButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +91,9 @@
 		4A3AF5E01EBC73C700FEDD38 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4A3AF5DC1EBC659800FEDD38 /* CustomResponderTextView.swift */,
 				4A3AF5DE1EBC672000FEDD38 /* ShowMenuButton.swift */,
+				4A3AF5DC1EBC659800FEDD38 /* CustomResponderTextView.swift */,
+				4A3AF5E31EBC937200FEDD38 /* KeyInputButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				4A3AF5C21EBC61DA00FEDD38 /* AppDelegate.swift in Sources */,
 				4A3AF5D81EBC636F00FEDD38 /* KeyInputVC.swift in Sources */,
 				4A3AF5D41EBC621500FEDD38 /* TableViewController.swift in Sources */,
+				4A3AF5E41EBC937200FEDD38 /* KeyInputButton.swift in Sources */,
 				4A3AF5DA1EBC637B00FEDD38 /* CustomMenuVC.swift in Sources */,
 				4A3AF5D61EBC635C00FEDD38 /* NextResponderVC.swift in Sources */,
 				4A3AF5DD1EBC659800FEDD38 /* CustomResponderTextView.swift in Sources */,

@@ -50,7 +50,8 @@ class KeyInputVC: UIViewController, KeyInputButtonDelegate {
     }
     
     @objc private func menuControllerWillHide() {
-        UIMenuController.shared.menuItems = nil // Prevent custom menu items displaying in text view
+        // Prevent custom menu items from displaying in text view
+        UIMenuController.shared.menuItems = nil
         NotificationCenter.default.removeObserver(self, name: Notification.Name.UIMenuControllerWillHideMenu, object: nil)
     }
     

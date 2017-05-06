@@ -31,6 +31,10 @@ class NextResponderVC: UIViewController {
         view.addSubview(textView)
     }
     
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    
     @objc private func showMenuButtonClicked(_ button: UIButton) {
         if textView.isFirstResponder {
             textView.overrideNext = button
@@ -52,13 +56,14 @@ class NextResponderVC: UIViewController {
     }
     
     @objc private func keyboardWillShow() {
-        // Prevent custom menu item displaying in text view
+        // Prevent custom menu item from displaying in text view
         UIMenuController.shared.menuItems = nil
     }
     
     @objc private func menuControllerWillHide() {
         textView.overrideNext = nil
-        UIMenuController.shared.menuItems = nil // Prevent custom menu items displaying in text view
+        // Prevent custom menu items from displaying in text view
+        UIMenuController.shared.menuItems = nil
         NotificationCenter.default.removeObserver(self, name: Notification.Name.UIMenuControllerWillHideMenu, object: nil)
     }
 

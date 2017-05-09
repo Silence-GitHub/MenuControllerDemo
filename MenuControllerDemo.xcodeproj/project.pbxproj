@@ -11,7 +11,6 @@
 		4A3AF5C71EBC61DA00FEDD38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AF5C51EBC61DA00FEDD38 /* Main.storyboard */; };
 		4A3AF5C91EBC61DA00FEDD38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AF5C81EBC61DA00FEDD38 /* Assets.xcassets */; };
 		4A3AF5CC1EBC61DA00FEDD38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3AF5CA1EBC61DA00FEDD38 /* LaunchScreen.storyboard */; };
-		4A3AF5F21EBCA25200FEDD38 /* CustomMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5EA1EBCA25200FEDD38 /* CustomMenuVC.swift */; };
 		4A3AF5F31EBCA25200FEDD38 /* KeyInputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5EB1EBCA25200FEDD38 /* KeyInputVC.swift */; };
 		4A3AF5F41EBCA25200FEDD38 /* NextResponderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5EC1EBCA25200FEDD38 /* NextResponderVC.swift */; };
 		4A3AF5F51EBCA25200FEDD38 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3AF5ED1EBCA25200FEDD38 /* TableViewController.swift */; };
@@ -27,7 +26,6 @@
 		4A3AF5C81EBC61DA00FEDD38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A3AF5CB1EBC61DA00FEDD38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A3AF5CD1EBC61DA00FEDD38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A3AF5EA1EBCA25200FEDD38 /* CustomMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMenuVC.swift; sourceTree = "<group>"; };
 		4A3AF5EB1EBCA25200FEDD38 /* KeyInputVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyInputVC.swift; sourceTree = "<group>"; };
 		4A3AF5EC1EBCA25200FEDD38 /* NextResponderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextResponderVC.swift; sourceTree = "<group>"; };
 		4A3AF5ED1EBCA25200FEDD38 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				4A3AF5ED1EBCA25200FEDD38 /* TableViewController.swift */,
 				4A3AF5EC1EBCA25200FEDD38 /* NextResponderVC.swift */,
 				4A3AF5EB1EBCA25200FEDD38 /* KeyInputVC.swift */,
-				4A3AF5EA1EBCA25200FEDD38 /* CustomMenuVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,7 +168,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A3AF5F21EBCA25200FEDD38 /* CustomMenuVC.swift in Sources */,
 				4A3AF5F81EBCA25200FEDD38 /* ShowMenuButton.swift in Sources */,
 				4A3AF5C21EBC61DA00FEDD38 /* AppDelegate.swift in Sources */,
 				4A3AF5F41EBCA25200FEDD38 /* NextResponderVC.swift in Sources */,

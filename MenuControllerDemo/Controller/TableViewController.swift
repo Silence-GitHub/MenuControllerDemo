@@ -18,10 +18,10 @@ class TableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    private let titles: [String] = ["Next responder", "UIKeyInput", "Custom menu"]
+    private let titles: [String] = ["Next responder", "UIKeyInput"]
     
     private var vcs: [UIViewController] {
-        return [NextResponderVC(), KeyInputVC(), CustomMenuVC()]
+        return [NextResponderVC(), KeyInputVC()]
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
